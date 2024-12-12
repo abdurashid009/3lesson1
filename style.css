@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter" , sans-serif;
+}
+.container{
+    padding: 0 171px;
+}
+.header{
+    width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.lang h3{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    color: #424242;
+}
+.form{
+    width: 650px;
+    height: 786px;
+    border-radius: 50px;
+    border: 1px solid #dedbdb;
+    margin: 46px auto;
+    padding: 66px 65px 37px 65px;
+}
+.form-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-logo{
+    width: 150px;
+    height: 40px;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.exit h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #F0400F;
+}
+.form-h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #0E0D5D;
+    text-align: center;
+    margin-top: 131px;
+    margin-bottom: 79px;
+}
+.vibor{
+    width: 533px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 0 11px;
+}
+.element{
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: #757575;
+    transition: all 1s;
+}
+
+.element:hover{
+    background-color: white;
+    color: black;
+}
+.input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    padding-left: 51px;
+}
+.class{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 213px;
+    margin-top: 18px;
+}
+.button{
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-top: 31px;
+    background-color: #F69E86;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid #F69E86;
+}
+.button:hover{
+    color: #F69E86;
+    background-color: white;
+}
